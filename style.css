@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Main */
+ul li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header */
+
+.btn-b {
+    color: white;
+    background: #4285f4;
+    padding: 7px 15px;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: .9em;
+    position: relative;
+}
+
+#header-nav {
+    float: right;
+}
+
+.logo-apps {
+    position: relative;
+    width: 30px;
+    margin-top: 20px;
+    opacity: .6;
+}
+
+.li-gmail {
+    bottom: 20px;
+}
+
+.li-images {
+    bottom: 20px;
+}
+
+.li-apps {
+    bottom: 10px;
+}
+
+.li-btn {
+    bottom: 20px;
+    right: 20px;
+    margin-left: 30px;
+}
+
+/* Mid Section */
+
+#sect-main {
+    display: block;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 86px;
+    background: #fff;
+}
+
+.logo-google {
+
+    width: 272px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* Search bar */
+.google-search-cont {
+    
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px #ddd solid;
+    border-radius: 20px;
+}
+
+.google-search {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    border: none;
+    width: 82%;
+    padding: 10px;
+}
+
+.google-search:focus {
+    outline: none;
+}
+
+.google-search-cont:focus, .google-search-cont:hover {
+    outline: none;
+    box-shadow: 0px 1px 4px 1px #ddd;
+}
+
+/* Search Buttons */
+
+.btn-both {
+    
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.btn-g {
+    color: #666;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.btn-ggl {
+    float: left;
+}
+
+.btn-lck {
+    float: right;
+}
+
+/* Footer */
+
+#div-country {
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    border-bottom: 1px #ccc solid;
+    border-top: 1px #ccc solid;
+    line-height: 3.1em;
+    position: absolute;
+    width: 100%;
+    bottom: 43px;
+}
+
+#div-country p {
+    margin-left: 25px;
+}
+
+#footer-full {
+    color: rgba(0,0,0,.54);
+    line-height: 1.7em;
+}
+
+#footer-left {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+#footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#footer-left li:first-child {
+    margin-left: 25px;
+}
