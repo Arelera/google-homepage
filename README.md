@@ -1,1 +1,1 @@
-Before completing: The goal is to make the Google's homepage for my first project.
+Remade the Google google homepage as my first The Odin Project project.
